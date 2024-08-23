@@ -2,7 +2,7 @@ const fs = require("fs");
 const https = require("https");
 
 const DEEPGRAM_URL = "https://api.deepgram.com/v1/speak?model=aura-asteria-en";
-const DEEPGRAM_API_KEY = "6fa713b27411f9bef12b4aacf3f95f3f20e33304";
+const DEEPGRAM_API_KEY = process.env.DEEPGRAM_API_KEY
 
 const payload = JSON.stringify({
   text: "Hello, how can I help you today? My name is Emily and I'm very glad to meet you. What do you think of this new text-to-speech API?",
