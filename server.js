@@ -4,14 +4,15 @@ const http = require("http");
 const fs = require("fs");
 const dotenv = require("dotenv");
 const path = require("path");
-
+require('dotenv').config();
 dotenv.config();
 
 const app = express();
 const server = http.createServer(app);
 app.use(express.json());
 
-const deepgram = createClient('6fa713b27411f9bef12b4aacf3f95f3f20e33304');
+const DEEPGRAM_API_KEY = process.env.DEEPGRAM_API_KEY;
+const deepgram = createClient(`${DEEPGRAM_API_KEY}`);
 
 app.use(express.static("public/"));
 app.use("/audio", express.static("audio"));
