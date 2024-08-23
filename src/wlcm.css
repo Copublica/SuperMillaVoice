@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat Alternates", sans-serif;
+
+}
+
+.welcomeScreen{
+    border-radius: 20px;
+    box-shadow: 6px 9px 19px 31px rgba(230, 230, 230, 1);
+    margin: 0 auto;
+    width: 340px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#carouselExampleIndicators{
+    margin: 40px 15px;
+}
+.carousel-indicators{
+    /* border: 1px red solid; */
+    /* width: 100px; */
+    margin-bottom: -4rem;
+    margin-left: -175px;
+    /* margin-right: 5px; */
+    border-radius: 10px;
+    /* width: 100px; */
+}
+.carousel-img{
+    /* margin: 10px; */
+    padding: 10px;
+    width: 295px;
+    height: 295px;
+}
+
+.carousel-item h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding-left: 8px;
+}
+/* .carousel-indicators button {
+    background-color: black !important; 
+    border: 1px solid black; 
+}
+
+.carousel-indicators button.active {
+    background-color: red ;
+} */
+
+/*------------------------------------------- Add this CSS to your existing wlcm.css file */
+/* .carousel-indicators button {
+    background-color: black;
+    border: none; 
+    width: 10px;
+    height: 10px; 
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+} */
+.carousel-indicators .aio {
+    background-color: black !important; /* Set all indicators to black */
+    border: none; /* Remove default border */
+    border-radius: 20px;
+    width: 10px; /* Adjust width of the indicators */
+    height: 6px; /* Adjust height of the indicators */
+    margin: 0 5px; /* Adjust margin between indicators */
+}
+
+.carousel-indicators .active {
+    background-color: red !important; /* Set active indicator to red */
+    width: 17px;
+}
+
+
+#carouselExampleIndicators{
+
+    border-radius: 10px;
+
+}
+
+.proceed-btn{
+    /* cursor: pointer; */
+    width: 60px;
+    border-radius: 15px;
+    background: linear-gradient(136.14deg, rgba(59, 32, 225, 0.39) -72.16%, #3B20E1 -72.14%, #15057B 8.97%, #090232 53.32%, #000000 153.2%);
+    color: #fff;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}

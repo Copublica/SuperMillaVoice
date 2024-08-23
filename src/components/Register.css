@@ -1,0 +1,136 @@
+.form-check-label-register {
+  font-size: 9px;
+  margin-top: 3px;
+}
+
+
+#terms {
+  margin-left: -18px;
+  margin-top: 6px;
+}
+
+.text-red {
+  color: red;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  background: #fff;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh; /* Limits the height of the popup */
+}
+
+.popup-content {
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1; /* Allows the content to grow and take available space */
+}
+
+.popup-actions {
+  padding: 10px;
+  background: #d0d0d0;
+  text-align: center;
+}
+
+
+
+.accpet-button {
+  background: linear-gradient(136deg, rgba(59, 32, 225, 39%) 1%, #3B20E1 -14%, #15057B 24%, #090232 63%, #000000 100%);
+  color: white;
+  width: 100%; /* Same width as input fields */
+  border: none;
+  max-width: 200px;
+}
+.accpet-button:hover {
+  color: white;
+}
+
+.popup-inner h2 {
+  margin: 5px;
+  font-size: 16px;
+}
+
+.popup-content p
+  {
+    font-size: 10px;
+}
+
+.popup-content h3{
+  
+    font-size: 17px;
+}
+
+.popup-content h4{
+  
+    font-size: 17px;
+
+}
+
+.popup-content ul{
+  font-size: 10px;
+}
+/* Added CSS for grey background in popup top section */
+.popup-inner-top {
+  background: #d0d0d0;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.popup-inner-top span {
+  display: inline-block;
+  margin: 0 5px; 
+  font-size: 18px; 
+  color: black; 
+}
+
+
+.btn {
+  font-size: 1rem; 
+  padding: 0.75rem 1.5rem; 
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem; /* Adjusted for Bootstrap's default spacing */
+}
+
+
+.popup-actions .btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.popup-actions .btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.popup-actions .btn.accept-button {
+  background-color: #a73728;
+  border-radius: 25px;
+}
+
+.popup-actions .btn.accept-button:hover {
+  background-color: #882b21;
+}

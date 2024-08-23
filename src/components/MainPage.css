@@ -1,0 +1,59 @@
+.myCard{
+ background: linear-gradient(136deg, rgba(59, 32, 225, 39%) 1%, #3B20E1 -14%, #15057B 24%, #090232 63%, #000000 100%);;
+color: aliceblue !important;
+justify-content: center;
+align-items: center;
+padding: 5px;
+border:none !important;
+border-radius: 15px !important;
+}
+
+.myCard:hover{
+background: rgb(194, 193, 193);
+color: #000000;
+}
+.card-left{ 
+  height: 200px !important;
+text-align: center;
+ 
+}
+.card-right{
+height: 90px !important;
+}
+.NavBar-left h1{
+  font-size: 15px;
+  font-weight: bold;
+  background: linear-gradient(136deg, rgba(59, 32, 225, 39%) 1%, #3B20E1 -14%, #15057B 24%, #090232 63%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.faq{
+  background: linear-gradient(136deg, rgba(59, 32, 225, 39%) 1%, #3B20E1 -14%, #15057B 24%, #090232 63%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.convo-history .link{
+  margin-top: 10px;
+  text-decoration: none;
+}
+.accordion1{
+  font-size: 12px;
+  font-weight: 500;
+}
+.col-left{
+  padding-right: 4px !important;
+}
+.col-right{
+  padding-left: 4px !important;
+}
+.col-6 a{
+  text-decoration: none;
+}
+.col-12 a{
+  text-decoration: none;
+}
+.logout-button {
+  background: linear-gradient(136deg, rgba(59, 32, 225, 39%) 1%, #3B20E1 -14%, #15057B 24%, #090232 63%, #000000 100%);
+   border-radius: 15px !important;
+   color: white;
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #28262c;
+}
+
+button{
+   width: 170px;
+   height: 40px;
+   text-align: center;
+   margin: 5px 10px;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 12px;
+   border: none;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   background: transparent;
+   color: #009688;
+   border: 2px solid #009688;
+
+}
+
+button::before {
+   /* transition: 0.5s all ease; */
+   /* position: absolute; */
+   /* top: 0;
+   left: 50%;
+   right: 50%;
+   bottom: 0;
+   opacity: 0; */
+   /* content: ''; */
+   /* background-color: #009688; */
+   /* z-index: -1; */
+
+}
+
+button:hover, button:focus{
+   /* color: #fff; */
+}
+button:hover:before, button:focus:before{
+   /* transition: 0.5s all ease; */
+   /* left: 0; */
+   /* right: 0; */
+   /* opacity: 1; */
+}
+button:active{
+transform: scale(0.9);
+}
+.logo-heading h3{
+   font-weight: 700;
+   line-height: 20px;
+}
+.logo-heading p{
+   font-size: 9px;
+   font-weight: 500;
+   margin: 0px;
+}
+.logo-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px 10px;
+}
+.logo {
+   width: 80px;
+   height: 80px;
+}
+.register{
+   background-color: #009688;
+   color: #fff;
+}
+.login{
+   background-color: #fff;
+   color: #009688;
+   border: 2px solid #009688;
+}
+   .auth-container {
+        box-shadow: 6px 9px 19px 31px rgba(230, 230, 230, 1);
+        margin: 0 auto;
+        border-radius: 25px;
+        width: 340px;
+        height: 100dvh;
+        display: flex;
+   }
+   
+   .auth-contents{
+       width: 100%;
+       padding: 70px 18px;
+       border-radius: 25px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       text-align: center;
+       
+   }
+.line{
+   border: 2px solid #8C8895;
+   width: 100%;
+   margin-bottom: 40px;
+}  
+
+#google-login{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.user-info {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.user-info img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   margin-bottom: 10px;
+}
