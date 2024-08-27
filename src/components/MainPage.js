@@ -79,7 +79,7 @@ function MainPage() {
                 <div className="col-6 col-left">
                 <Link to="/Test">
                   <div className="card card-left d-flex mt-2 myCard">
-                  Social emotional learning
+                  Social emotional learnings
                   </div>
                   </Link>
                   <Link to="/displayAids">
